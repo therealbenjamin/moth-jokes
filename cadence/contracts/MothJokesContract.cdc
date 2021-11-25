@@ -45,7 +45,7 @@ pub contract MothJokesContract {
         self.metadataObjs[id] = metadata
     }
 
-    pub fun getMetadata(id: UInt64): {String : String} {
+    pub fun getMetadata(id: UInt64): {String: String} {
         return self.metadataObjs[id]!
     }
 

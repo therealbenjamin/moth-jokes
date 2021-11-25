@@ -15,8 +15,8 @@ transaction {
 
   execute {
       let metadata : {String : String} = {
-          "name": "A BUNCH OF FILES",
-          "uri": "ipfs://QmPZymJ6UQrKui3KbHkRw51iffZmgw6tSKwEQmHw4ULcbt"
+          "name": "Norm!",
+          "uri": "ipfs://QmXMzYKoM32mxxE53LxG6x3XgKs6Nf3vketdx5DXX2YYpP"
       }
       let newNFT <- self.minterRef.mintNFT()
 
