@@ -43,6 +43,7 @@ button {
 
 .img {
   width: 15em;
+  border-radius: 5px;
 }
 
 .clear {
